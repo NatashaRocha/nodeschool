@@ -1,0 +1,1 @@
+console.log(process.argv.filter((n, index) => index > 1).reduce((prev, next) => prev + parseInt(next), 0))
